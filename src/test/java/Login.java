@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Login {
     public static void main(String[] args) throws InterruptedException {
         //1- Open the browser
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = LaunchBrowser.openBrowser("Edge");
 
         //2- Enter the url
         driver.get("https://janbaskdemo.com/");
