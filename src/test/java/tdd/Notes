@@ -1,0 +1,28 @@
+TestNg:
+
+3A's:
+Annotations
+  -They are used along with methods
+    @BeforeSuite
+    @BeforeTest: This will execute only once and that too before @BeforeClass annotation
+    @BeforeClass:This will execute only once and that too before @BeforeMethod annotation
+    @BeforeMethod: This will execute before every test case[@Test] within the class
+    @Test : this is used to represent a Test Case
+    @AfterMethod:  This will execute after every test case[@Test] within the class
+    @AfterClass:This will execute only once and that too after @AfterMethod annotation
+    @AfterTest:This will execute only once and that too after @AfterClass annotation
+    @AfterSuite
+
+Attributes
+  -They are used along with annotations
+    priority: This defines the order of execution of your Test Case
+    Enabled: This is used for enabling or disabling a test case
+    invocationCount:This is used to execute a test case n number of times
+    dependsOnMethods:This ensure execution only when depending method passes, else this will be skipped
+
+Assertions
+  -They are used to validate a test case
+  AssertTrue
+  AssertFalse
+  AssertEquals
+  AssertNotEquals

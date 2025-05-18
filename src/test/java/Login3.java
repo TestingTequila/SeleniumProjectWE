@@ -5,6 +5,7 @@ import pageobjectmodel.YouStore;
 
 public class Login3 {
     public static void main(String[] args) throws InterruptedException {
+
         //1- Open the browser
         WebDriver driver = LaunchBrowser.openBrowser(AppLevelData.browserName);
 
